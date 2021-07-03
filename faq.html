@@ -1,1 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/faq.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-secondary">
+    <div class="container mb-5">
+        <div class="my-3">
+            <h1 class="text-center text-primary">How can Helpy Motto help you</h1>
+        </div>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control help-input fs-5" placeholder="What help are you looking for?"
+                aria-label="Help">
+            <span class="input-group-text fs-5 help-input-text">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+            </span>
+        </div>
+        <div>
+            <div class="nav nav-pills  justify-content-between align-items-center mb-3" id="help-tab" role="tablist">
+                <a class="flex-fill nav-link active square" id="general-tab" data-bs-toggle="tab"
+                    data-bs-target="#general" type="button" role="tab" aria-controls="general" aria-selected="true">
+                    <div class="content fs-5 fw-bold">General</div>
+                </a>
+                <a class="flex-fill nav-link square" id="faq-tab" data-bs-toggle="tab" data-bs-target="#faq"
+                    type="button" role="tab" aria-controls="faq" aria-selected="false">
+                    <div class="content fs-5 fw-bold">FAQ</div>
+                </a>
+                <a class="flex-fill nav-link square" id="other-tab" data-bs-toggle="tab" data-bs-target="#other"
+                    type="button" role="tab" aria-controls="other" aria-selected="false">
+                    <div class="content fs-5 fw-bold">Other</div>
+                </a>
+            </div>
+            <div class="tab-content" id="help-content">
+                <div class="tab-pane fade show active" id="general" role="tabpanel" aria-labelledby="general-tab">
+                    <h3 class="text-center text-white">General</h3>
+                    <div class="accordion accordion-help" id="accordion-general">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#general-1" aria-expanded="false">
+                                    Sample Question 1
+                                </button>
+                            </h2>
+                            <div id="general-1" class="accordion-collapse collapse" data-bs-parent="#accordion-general">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero non explicabo
+                                    recusandae laudantium dolore officia quia deserunt voluptatem ex, alias porro
+                                    eveniet odit quisquam, aliquid architecto enim sit itaque expedita?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#general-2" aria-expanded="false">
+                                    Sample Question 2
+                                </button>
+                            </h2>
+                            <div id="general-2" class="accordion-collapse collapse" data-bs-parent="#accordion-general">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero non explicabo
+                                    recusandae laudantium dolore officia quia deserunt voluptatem ex, alias porro
+                                    eveniet odit quisquam, aliquid architecto enim sit itaque expedita?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#general-3" aria-expanded="false">
+                                    Sample Question 3
+                                </button>
+                            </h2>
+                            <div id="general-3" class="accordion-collapse collapse" data-bs-parent="#accordion-general">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero non explicabo
+                                    recusandae laudantium dolore officia quia deserunt voluptatem ex, alias porro
+                                    eveniet odit quisquam, aliquid architecto enim sit itaque expedita?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="faq" role="tabpanel" aria-labelledby="faq-tab">
+                    <h3 class="text-center text-white">FAQ</h3>
+                    <div class="accordion accordion-help" id="accordion-faq">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq-1" aria-expanded="false">
+                                    Sample Question 1
+                                </button>
+                            </h2>
+                            <div id="faq-1" class="accordion-collapse collapse" data-bs-parent="#accordion-faq">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero non explicabo
+                                    recusandae laudantium dolore officia quia deserunt voluptatem ex, alias porro
+                                    eveniet odit quisquam, aliquid architecto enim sit itaque expedita?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq-2" aria-expanded="false">
+                                    Sample Question 2
+                                </button>
+                            </h2>
+                            <div id="faq-2" class="accordion-collapse collapse" data-bs-parent="#accordion-faq">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero non explicabo
+                                    recusandae laudantium dolore officia quia deserunt voluptatem ex, alias porro
+                                    eveniet odit quisquam, aliquid architecto enim sit itaque expedita?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq-3" aria-expanded="false">
+                                    Sample Question 3
+                                </button>
+                            </h2>
+                            <div id="faq-3" class="accordion-collapse collapse" data-bs-parent="#accordion-faq">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero non explicabo
+                                    recusandae laudantium dolore officia quia deserunt voluptatem ex, alias porro
+                                    eveniet odit quisquam, aliquid architecto enim sit itaque expedita?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="other" role="tabpanel" aria-labelledby="other-tab">
+                    <h3 class="text-center text-white">Other</h3>
+                    <div class="accordion accordion-help" id="accordion-other">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#other-1" aria-expanded="false">
+                                    Sample Question 1
+                                </button>
+                            </h2>
+                            <div id="other-1" class="accordion-collapse collapse" data-bs-parent="#accordion-other">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero non explicabo
+                                    recusandae laudantium dolore officia quia deserunt voluptatem ex, alias porro
+                                    eveniet odit quisquam, aliquid architecto enim sit itaque expedita?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#other-2" aria-expanded="false">
+                                    Sample Question 2
+                                </button>
+                            </h2>
+                            <div id="other-2" class="accordion-collapse collapse" data-bs-parent="#accordion-other">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero non explicabo
+                                    recusandae laudantium dolore officia quia deserunt voluptatem ex, alias porro
+                                    eveniet odit quisquam, aliquid architecto enim sit itaque expedita?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#other-3" aria-expanded="false">
+                                    Sample Question 3
+                                </button>
+                            </h2>
+                            <div id="other-3" class="accordion-collapse collapse" data-bs-parent="#accordion-other">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero non explicabo
+                                    recusandae laudantium dolore officia quia deserunt voluptatem ex, alias porro
+                                    eveniet odit quisquam, aliquid architecto enim sit itaque expedita?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
