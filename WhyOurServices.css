@@ -1,0 +1,158 @@
+:root{
+    --primary-color: #FF0000;
+    --secondary-color: #000000;
+    font-size: 20px;
+}
+
+
+.wsohm{
+    background-color: var(--secondary-color);
+
+    
+}
+
+.wsohm .heading{
+    color: white;
+    padding: 2rem;
+    font-size: 2rem;
+    
+}
+
+.wsohm .scroll-view{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+/* 
+.wsohm .scroll-view .image{
+    
+    height: 10rem;
+    width: 13rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+
+}
+.wsohm .scroll-view .arrow{
+    padding-left: 1rem;
+}
+
+#arrow-right{
+    transform: rotate(180deg);
+}
+
+.text-box-container{
+    padding-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text-box{
+    width: 10.6rem;
+    background-color:lightgrey;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0.3rem 0.6rem;
+    margin-bottom: 2rem;
+}
+
+.headline{
+    color: var(--primary-color);
+    align-self: center;
+    
+
+}
+.box-text{
+    color:var(--secondary-color);
+    margin-top: 1rem;
+
+    
+}
+.carousel-inner{
+    position:relative;
+    width:50%;
+    overflow:hidden} */
+
+
+
+/* .card-group{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+} */
+
+.card-title{
+    color: var(--primary-color);
+
+}
+
+.card-img-top{
+    padding: 35px;
+}
+
+.card{
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+/* .card-group>.card:not(:first-child) {
+    border-radius: 10px;
+} */
+
+/* .card-group>.card:not(:last-child) {
+    border-radius: 10px;
+} */
+/* 
+@media (max-width:700px){
+    .card-group{
+
+        flex-direction: column;
+
+}} */
+
+@media(max-width:541px){
+    .wsohm .scroll-view{
+        flex-direction: column;
+    }
+
+    .wsohm .heading{
+        color: white;
+        padding: 1.2rem;
+        font-size: 1.2rem;
+        
+    }
+    .card{
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:1000px) and (min-width:541px){
+    .wsohm .scroll-view{
+        flex-direction: row;
+    }
+
+    .card{
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+    }
+    .card-img-top{
+        padding: 15px;
+    }
+}
