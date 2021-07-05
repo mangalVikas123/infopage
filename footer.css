@@ -1,0 +1,31 @@
+.social {
+    padding: 5px;
+
+  }
+  .sharer button{
+      color: red;
+  }
+  /* body{
+      background-color: black;
+  } */
+  a{
+      color: darkblue;
+  }
+  #borderDemo {
+    border: 5px inset black;
+    background-color: black;
+    }
+    .redarea{
+        background-color: #f10a0a;
+    }
+    .blackarea{
+        background-color: #000000;
+    }
+    #demotext {
+        color: #FFFFFF;
+        background: black;
+        text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+        color: #FFFFFF;
+        background: black;
+        /* background: #333333; */
+        }

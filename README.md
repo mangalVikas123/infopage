@@ -1,1 +1,1 @@
-# infopage HELPY MOTO
+# infopage
