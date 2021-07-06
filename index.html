@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
+    <script>
+        $(function () {
+            $("#include_navbar").load("Components/navbar.html");
+            $("#include_whyourservices").load("Components/whyourservices.html");
+            $("#include_faq").load("Components/faq.html");
+            $("#include_footer").load("Components/footer.html");
+
+        });
+    </script>
+</head>
+
+<body>
+    <div id="include_navbar"></div>
+    <div id="include_whyourservices"></div>
+    <div id="include_faq"></div>
+    <div id="include_footer"></div>
+
+    
+</body>
+
+
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
+
+<body>
+
+<div w3-include-html="Components/navbar.html"></div>
+<div w3-include-html="Components/whyourservices.html"></div>
+<div w3-include-html="Components/faq.html"></div>
+<div w3-include-html="Components/footer.html"></div>
+
+<script>
+w3IncludeHTML();
+</script>
+
+</body>
+</html> -->
