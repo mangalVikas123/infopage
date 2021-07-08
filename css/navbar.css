@@ -26,8 +26,8 @@
 
 @media (max-width: 576px){
 
-.navbar-brand {
-    width: 200px !important;
+.brand {
+    flex-basis: 60% !important;
 }
 }
 
