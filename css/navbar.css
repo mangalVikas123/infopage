@@ -1,0 +1,40 @@
+.navbar-container {
+    padding-top: 1.25rem !important;
+} 
+
+.bgimg{
+    background-image: url('../images/navbar/background_image.png') !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 100vh !important;
+}
+
+/*NAVBAR BRAND*/
+.navbar-item {
+    padding: 0 1.5rem 0 1.5rem !important;
+}
+
+.btn-signup {
+    background-color: var(--primary-color) !important;
+    color: #ffffff !important;
+}
+
+.btn-signup:hover{
+    background-color: #DA0037 !important;
+}
+
+.logo {
+    width: 100% !important;
+    height: auto !important;
+}
+
+
+@media (max-width: 576px){
+
+   .brand {
+        flex-basis: 60% !important;
+        
+    }
+
+}
