@@ -3,11 +3,11 @@
 } 
 
 .bgimg{
-    background-image: url('../images/navbar/background_image.png');
-    background-size: 100% 100%;
-    background-attachment: scroll;
-    width: 100%;
-    height: 780px;
+    background-image: url('../images/navbar/background_image.png') !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 100vh !important;
 }
 
 /*NAVBAR BRAND*/
@@ -24,21 +24,17 @@
     background-color: #DA0037 !important;
 }
 
-@media (max-width: 576px){
-
-.brand {
-    flex-basis: 60% !important;
-}
-}
-
 .logo {
     width: 100% !important;
     height: auto !important;
 }
 
-@media(max-width:425px){
-    .bgimg{
-    height:666 px;
-    width: 400px;
+
+@media (max-width: 576px){
+
+   .brand {
+        flex-basis: 60% !important;
+        
     }
+
 }
