@@ -12,7 +12,12 @@
 
 /*NAVBAR BRAND*/
 .navbar-item {
+    position: relative !important;
     padding: 0 1.5rem 0 1.5rem !important;
+}
+
+.navbar-item > .active {
+    border-bottom: 0.175rem solid var(--primary-color) !important;
 }
 
 .btn-signup {
@@ -29,12 +34,10 @@
     height: auto !important;
 }
 
-
 @media (max-width: 576px){
 
    .brand {
         flex-basis: 60% !important;
-        
     }
 
 }
