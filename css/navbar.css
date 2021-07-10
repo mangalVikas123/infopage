@@ -16,9 +16,10 @@
     padding: 0 1.5rem 0 1.5rem !important;
 }
 
-.navbar-item > .active {
+.navbar-item > .active,.navbar-item > a:hover {
     border-bottom: 0.175rem solid var(--primary-color) !important;
 }
+
 
 .btn-signup {
     background-color: var(--primary-color) !important;
