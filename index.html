@@ -5,46 +5,476 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    
-    <script>
-        $(function () {
-            $("#include_navbar").load("Components/navbar.html");
-            $("#include_whyourservices").load("Components/whyourservices.html");
-            $("#include_faq").load("Components/faq.html");
-            $("#include_footer").load("Components/footer.html");
+    <title>Help Motto</title>
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Font awesome css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!--Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
-        });
-    </script>
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/whyourservicesupdated.css">
+    <link rel="stylesheet" href="css/faq.css">
+    <link rel="stylesheet" href="css/footer.css">
+
 </head>
 
-<body>
-    <div id="include_navbar"></div>
-    <div id="include_whyourservices"></div>
-    <div id="include_faq"></div>
-    <div id="include_footer"></div>
+<body class="bg-secondary">
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-secondary">
+            <div class="container-fluid navbar-container">
+                <a class="navbar-brand brand" href="#">
+                    <img src="images/navbar/logo_hm.png" alt="helpy motto brand image"
+                        class="logo d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsenavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center " id="collapsenavbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item navbar-item">
+                            <a href="" class="nav-link active text-white">HOME</a>
+                        </li>
+                        <li class="nav-item navbar-item">
+                            <a href="" class="nav-link text-white">MECHANIC</a>
+                        </li>
+                        <li class="nav-item navbar-item">
+                            <a href="" class="nav-link text-white">ABOUT</a>
+                        </li>
+                        <li class="nav-item navbar-item">
+                            <a href="#contact" class="nav-link text-white">CONTACT</a>
+                        </li>
+                        <li class="nav-item navbar-item">
+                            <a href="" class="nav-link text-white">LIVE LOCATION</a>
+                        </li>
+                        <li class="nav-item navbar-item">
+                            <button class="btn btn-signup" type="button">SIGN UP</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="bgimg">
+    </div>
 
-    
+
+    <!--Why our services-->
+    <div class="wsohm container mb-5">
+        <div class="wsohm-heading fs-1 text-center">Why Service of Helpy Moto?</div>
+        <div class="container-fluid">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4  g-4 wsohm-scroll-view">
+                <div class="col">
+                    <div class="card wsohm-card">
+                        <img class="card-img-top wsohm-card-img" src="images/why_our_services/service.png"
+                            alt="Card image cap">
+                        <div class="card-body wsohm-card-body">
+                            <h5 class="card-title wsohm-card-title">Card title</h5>
+                            <p class="card-text wsohm-card-text">This is a wider card with supporting text below as a
+                                natural
+                                lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card wsohm-card">
+                        <img class="card-img-top wsohm-card-img" src="images/why_our_services/service.png"
+                            alt="Card image cap">
+                        <div class="card-body wsohm-card-body">
+                            <h5 class="card-title wsohm-card-title">Card title</h5>
+                            <p class="card-text wsohm-card-text">This is a wider card with supporting text below as a
+                                natural
+                                lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card wsohm-card">
+                        <img class="card-img-top wsohm-card-img" src="images/why_our_services/service.png"
+                            alt="Card image cap">
+                        <div class="card-body wsohm-card-body">
+                            <h5 class="card-title wsohm-card-title">Card title</h5>
+                            <p class="card-text wsohm-card-text">This is a wider card with supporting text below as a
+                                natural
+                                lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card wsohm-card">
+                        <img class="card-img-top wsohm-card-img" src="images/why_our_services/service.png"
+                            alt="Card image cap">
+                        <div class="card-body wsohm-card-body">
+                            <h5 class="card-title wsohm-card-title">Card title</h5>
+                            <p class="card-text wsohm-card-text">This is a wider card with supporting text below as a
+                                natural
+                                lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--FAQ-->
+    <div class="container mb-5">
+        <div class="my-3">
+            <h1 class="text-center text-primary">How can Helpy Motto help you</h1>
+        </div>
+        <div class="input-group mb-3 drop-down">
+            <input id="help-input" type="text" class="form-control help-input fs-5 dropdown-toggle"
+                data-bs-toggle="dropdown" placeholder="What help are you looking for?" aria-label="Help">
+            <button id="help-input-btn" class="input-group-text fs-5 help-input-text">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+            </button>
+            <ul id="help-autosuggest" class="dropdown-menu w-100">
+            </ul>
+        </div>
+        <div>
+            <div class="nav nav-pills  justify-content-between align-items-center mb-3" id="help-tab" role="tablist">
+                <!-- add new nav-link with id="name-tab" where name is any name and data-bs-target with tab id "#tabid"-->
+                <a class="flex-fill nav-link active square" id="general-tab" data-bs-toggle="tab"
+                    data-bs-target="#general" type="button" role="tab" aria-controls="general" aria-selected="true">
+                    <div class="content fs-5 fw-bold">General</div>
+                </a>
+                <a class="flex-fill nav-link square" id="faq-tab" data-bs-toggle="tab" data-bs-target="#faq"
+                    type="button" role="tab" aria-controls="faq" aria-selected="false">
+                    <div class="content fs-5 fw-bold">FAQ</div>
+                </a>
+                <a class="flex-fill nav-link square" id="other-tab" data-bs-toggle="tab" data-bs-target="#other"
+                    type="button" role="tab" aria-controls="other" aria-selected="false">
+                    <div class="content fs-5 fw-bold">Other</div>
+                </a>
+            </div>
+            <div class="tab-content" id="help-content">
+                <div class="tab-pane fade show active" id="general" role="tabpanel" aria-labelledby="general-tab">
+                    <h3 class="text-center text-white">General</h3>
+                    <div class="accordion accordion-help" id="accordion-general">
+                        <!--  add id="general-n" where n is a nu,ber in accordion-body abd data-bs-target-->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#general-1" aria-expanded="false">
+                                    Sample Question 1
+                                </button>
+                            </h2>
+                            <div id="general-1" class="accordion-collapse collapse" data-bs-parent="#accordion-general">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero non explicabo
+                                    recusandae laudantium dolore officia quia deserunt voluptatem ex, alias porro
+                                    eveniet odit quisquam, aliquid architecto enim sit itaque expedita?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#general-2" aria-expanded="false">
+                                    Sample Question 2
+                                </button>
+                            </h2>
+                            <div id="general-2" class="accordion-collapse collapse" data-bs-parent="#accordion-general">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero non explicabo
+                                    recusandae laudantium dolore officia quia deserunt voluptatem ex, alias porro
+                                    eveniet odit quisquam, aliquid architecto enim sit itaque expedita?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#general-3" aria-expanded="false">
+                                    Sample Question 3
+                                </button>
+                            </h2>
+                            <div id="general-3" class="accordion-collapse collapse" data-bs-parent="#accordion-general">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero non explicabo
+                                    recusandae laudantium dolore officia quia deserunt voluptatem ex, alias porro
+                                    eveniet odit quisquam, aliquid architecto enim sit itaque expedita?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="faq" role="tabpanel" aria-labelledby="faq-tab">
+                    <h3 class="text-center text-white">FAQ</h3>
+                    <div class="accordion accordion-help" id="accordion-faq">
+                        <!--  add id="faq-n" where n is a nu,ber in accordion-body abd data-bs-target-->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq-1" aria-expanded="false">
+                                    Sample Question 1
+                                </button>
+                            </h2>
+                            <div id="faq-1" class="accordion-collapse collapse" data-bs-parent="#accordion-faq">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero non explicabo
+                                    recusandae laudantium dolore officia quia deserunt voluptatem ex, alias porro
+                                    eveniet odit quisquam, aliquid architecto enim sit itaque expedita?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq-2" aria-expanded="false">
+                                    Sample Question 2
+                                </button>
+                            </h2>
+                            <div id="faq-2" class="accordion-collapse collapse" data-bs-parent="#accordion-faq">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero non explicabo
+                                    recusandae laudantium dolore officia quia deserunt voluptatem ex, alias porro
+                                    eveniet odit quisquam, aliquid architecto enim sit itaque expedita?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq-3" aria-expanded="false">
+                                    Sample Question 3
+                                </button>
+                            </h2>
+                            <div id="faq-3" class="accordion-collapse collapse" data-bs-parent="#accordion-faq">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero non explicabo
+                                    recusandae laudantium dolore officia quia deserunt voluptatem ex, alias porro
+                                    eveniet odit quisquam, aliquid architecto enim sit itaque expedita?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="other" role="tabpanel" aria-labelledby="other-tab">
+                    <h3 class="text-center text-white">Other</h3>
+                    <div class="accordion accordion-help" id="accordion-other">
+                        <!--  add id="other-n" where n is a nu,ber in accordion-body abd data-bs-target-->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#other-1" aria-expanded="false">
+                                    Sample Question 1
+                                </button>
+                            </h2>
+                            <div id="other-1" class="accordion-collapse collapse" data-bs-parent="#accordion-other">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero non explicabo
+                                    recusandae laudantium dolore officia quia deserunt voluptatem ex, alias porro
+                                    eveniet odit quisquam, aliquid architecto enim sit itaque expedita?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#other-2" aria-expanded="false">
+                                    Sample Question 2
+                                </button>
+                            </h2>
+                            <div id="other-2" class="accordion-collapse collapse" data-bs-parent="#accordion-other">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero non explicabo
+                                    recusandae laudantium dolore officia quia deserunt voluptatem ex, alias porro
+                                    eveniet odit quisquam, aliquid architecto enim sit itaque expedita?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#other-3" aria-expanded="false">
+                                    Sample Question 3
+                                </button>
+                            </h2>
+                            <div id="other-3" class="accordion-collapse collapse" data-bs-parent="#accordion-other">
+                                <div class="accordion-body">
+
+                                    Loremipsum dolor sit amet consectetur adipisicing elit. Vero non explicabo
+                                    recusandae laudantium dolore officia quia deserunt voluptatem ex, alias porro
+                                    eveniet odit quisquam, aliquid architecto enim sit itaque expedita?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Footer-->
+    <div id="borderDemo">
+        <footer class="page-footer font-small unique-color-dark">
+            <div class="blackarea">
+                <div class="container">
+                    <div class="py-4 d-flex flex-column flex-md-row align-items-around">
+                        <div class="align-self-center">
+                            <h5 class="text-primary text-center">Get connected with us on social networks!</h>
+                        </div>
+                        <div class="text-center text-md-end flex-fill">
+                            <div class="social">
+                                <a href="#" id="share-fb" class="sharer-btn"><i
+                                        class="fa fa-3x fa-facebook-square"></i></a>
+                                <a href="#" id="share-tw" class="sharer-btn"><i
+                                        class="fa fa-3x fa-twitter-square"></i></a>
+                                <a href="#" id="share-li" class="sharer-btn"><i
+                                        class="fa fa-3x fa-linkedin-square"></i></a>
+                                <a href="#" id="share-gp" class="sharer-btn"><i
+                                        class="fa fa-3x fa-google-plus-square"></i></a>
+                                <a href="#" id="share-em" class="sharer-btn"><i
+                                        class="fa fa-3x fa-envelope-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="redarea">
+                    <div class="container text-center text-md-left mt-5">
+                        <div class="row mt-3">
+                            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                <h6 class="text-uppercase font-weight-bold">Helpy MOto Pvt.ltd</h6>
+                                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                                <p>We help/provide the service to the people who are stuck in the middle of the
+                                    highwayand somewhere in India. We help them to repair their
+                                    vehicle in an effective and efficient way.
+                                </p>
+                            </div>
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <h6 class="text-uppercase font-weight-bold">Practise Areas</h6>
+                                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                                <p><a href="#!">Repairing</a></p>
+                                <p><a href="#!">Engine</a></p>
+                                <p><a href="#!">Painting</a></p>
+                                <p><a href="#!">Body & Tires</a></p>
+                            </div>
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+                                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                                <p><a href="#!">Your Account</a></p>
+                                <p><a href="#!">Become a Customar</a></p>
+                                <p><a href="https://www.wikipedia.org">View Our TOP OFFERS</a></p>
+                                <p><a href="#!">GET Help</a></p>
+                            </div>
+                            <div id="contact" class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                                <h6><span class="glyphicon glyphicon-home"></span>New Delhi,Indranagar phase-2, India
+                                </h6>
+                                <p>helpymoto@example.com</p>
+                                <p>+91 XXX-XXX-XXXX</p>
+                                <p>+91 XXX-XXX-XXXX</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-copyright text-center py-3"><b>© 2021 Copyright:<b>
+                                <div id="demotext">
+                                    <a href="#">HELPY MOTO Pvt.ltd</a>
+                                </div>
+                    </div>
+                </div>
+        </footer>
+    </div>
+
+    <div class="position-fixed">
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--Navbar Section Script-->
+    <script>
+        $(document).ready(function () {
+            /*auto close navbar-collapse when contact nav-item is clicked'*/
+            $('.navbar-item a').on('click', function () {
+                    $('.navbar-collapse').collapse('hide');
+            })
+        })
+    </script>
+    <!--FAQ Section script-->
+    <script>
+        $(document).ready(function () {
+            var help_data = [];
+            var accordion_items = $('.accordion-help .accordion-item');
+            let l = accordion_items.length;
+            for (let i = 0; i < l; i++) {
+                let accordion_item = {};
+                accordion_item["id"] = "#" + $(accordion_items[i]).find('.accordion-collapse').attr('id');
+                accordion_item["heading"] = $(accordion_items[i]).find('.accordion-button').text().trim().toLowerCase();
+                accordion_item["body"] = $(accordion_items[i]).find('.accordion-body').text().replace(/\s+/g, ' ').trim().toLowerCase();
+                help_data.push(accordion_item);
+            }
+
+            //constructing help autosuggest dropdown
+            for (let i = 0; i < l; i++) {
+                let dropdown_item = $(`<li><a class="dropdown-item" data-hauto="${help_data[i]["id"]}">${help_data[i]["heading"]}</a></li>`);
+                $('#help-autosuggest').append(dropdown_item);
+            }
+
+            //help autosuggest item from dropdown selected event
+            $('#help-autosuggest .dropdown-item').on('click', function () {
+                $('#help-input').val($(this).text());
+                show_help_item($(this).data('hauto'));
+            });
+
+            //handle enter event help input
+            $('#help-input').on('keyup', function (event) {
+                if (event.key == "Enter") {
+                    $("#help-input").focusout();
+                    if ($(this).val().trim()) {
+                        search_help($(this).val().toLowerCase(), help_data);
+                    }
+                }
+            });
+
+            $('#help-input-btn').on('click', function () {
+                $("#help-input").focusout();
+                if ($("#help-input").val().trim()) {
+                    search_help($("#help-input").val().toLowerCase(), help_data);
+                }
+            })
+
+            function show_help_item(id) {
+                $(id.split('-')[0] + '-tab').tab('show');
+                if (!$(id).hasClass('show')) {
+                    $(id).parent().find('button').click();
+
+                }
+            }
+
+            function search_help(search_str, help_data) {
+                let l = help_data.length;
+                for (let i = 0; i < l; i++) {
+                    if (help_data[i]["heading"].search(search_str) != -1 || help_data[i]["body"].search(search_str) != -1) {
+                        show_help_item(help_data[i]["id"]);
+                        return;
+                    }
+                }
+            }
+        });
+    </script>
 </body>
 
 
 </html>
-
-<!-- <!DOCTYPE html>
-<html>
-<script src="http://www.w3schools.com/lib/w3data.js"></script>
-
-<body>
-
-<div w3-include-html="Components/navbar.html"></div>
-<div w3-include-html="Components/whyourservices.html"></div>
-<div w3-include-html="Components/faq.html"></div>
-<div w3-include-html="Components/footer.html"></div>
-
-<script>
-w3IncludeHTML();
-</script>
-
-</body>
-</html> -->
