@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/whyourservicesupdated.css">
     <link rel="stylesheet" href="css/faq.css">
     <link rel="stylesheet" href="css/footer.css">
+
 </head>
 
 <body class="bg-secondary">
@@ -38,7 +39,7 @@
                 <div class="collapse navbar-collapse text-center " id="collapsenavbar">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item navbar-item">
-                            <a href="" class="nav-link text-white">HOME</a>
+                            <a href="" class="nav-link active text-white">HOME</a>
                         </li>
                         <li class="nav-item navbar-item">
                             <a href="" class="nav-link text-white">MECHANIC</a>
@@ -47,7 +48,7 @@
                             <a href="" class="nav-link text-white">ABOUT</a>
                         </li>
                         <li class="nav-item navbar-item">
-                            <a href="#borderDemo" class="nav-link text-white">CONTACT</a>
+                            <a href="#contact" class="nav-link text-white">CONTACT</a>
                         </li>
                         <li class="nav-item navbar-item">
                             <a href="" class="nav-link text-white">LIVE LOCATION</a>
@@ -60,10 +61,8 @@
             </div>
         </nav>
     </header>
-    <div  class="bgimg">
+    <div class="bgimg">
     </div>
-
-
 
 
     <!--Why our services-->
@@ -334,7 +333,7 @@
                 <div class="container">
                     <div class="py-4 d-flex flex-column flex-md-row align-items-around">
                         <div class="align-self-center">
-                            <h5 class="text-primary">Get connected with us on social networks!</h>
+                            <h5 class="text-primary text-center">Get connected with us on social networks!</h>
                         </div>
                         <div class="text-center text-md-end flex-fill">
                             <div class="social">
@@ -379,7 +378,7 @@
                                 <p><a href="https://www.wikipedia.org">View Our TOP OFFERS</a></p>
                                 <p><a href="#!">GET Help</a></p>
                             </div>
-                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <div id="contact" class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                                 <h6 class="text-uppercase font-weight-bold">Contact</h6>
                                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                                 <h6><span class="glyphicon glyphicon-home"></span>New Delhi,Indranagar phase-2, India
@@ -399,8 +398,21 @@
         </footer>
     </div>
 
+    <div class="position-fixed">
+
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--Navbar Section Script-->
+    <script>
+        $(document).ready(function () {
+            /*auto close navbar-collapse when contact nav-item is clicked'*/
+            $('.navbar-item a').on('click', function () {
+                    $('.navbar-collapse').collapse('hide');
+            })
+        })
+    </script>
+    <!--FAQ Section script-->
     <script>
         $(document).ready(function () {
             var help_data = [];
