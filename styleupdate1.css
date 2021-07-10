@@ -1,0 +1,77 @@
+.navbar-container {
+    padding-top: 1.25rem !important;
+} 
+
+.bgimg{
+    background-image: url('../images/navbar/background_image.png') !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 100vh !important;
+    
+    
+}
+
+
+/*NAVBAR BRAND*/
+.navbar-item {
+    padding: 0 1.5rem 0 1.5rem !important;
+}
+
+.btn-signup {
+    background-color: var(--primary-color) !important;
+    color: #ffffff !important;
+}
+
+.btn-signup:hover{
+    background-color: #DA0037 !important;
+}
+
+.logo {
+    width: 100% !important;
+    height: auto !important;
+}
+.titleof-card{
+    margin:25px 0 35px 0;
+}
+.form-card{
+    margin: 200px 50px 0 0;
+    box-shadow:0 0 5px 0;
+    background: initial;
+    backdrop-filter: blur(70px);
+    border-radius: 4%;
+    color: #ffffff !important;
+
+}
+.bgimg h3{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.btn-hire{
+    background-color: var(--primary-color) !important;
+    color: #ffffff !important;
+    margin: 40px 0 30px 0;
+}
+.glass-effect{
+    box-shadow: 0 0 5px 0;
+    background: initial;
+    backdrop-filter: blur(50px);
+   
+}
+.form-ip{
+    background-color:grey;
+    width: 40%; 
+}
+
+
+@media (max-width: 576px){
+
+   .brand {
+        flex-basis: 60% !important;
+        
+    }
+    .form-card{
+        width: 18rem;
+    }
+
+}
