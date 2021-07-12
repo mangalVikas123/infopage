@@ -38,20 +38,20 @@
                 </button>
                 <div class="collapse navbar-collapse text-center " id="collapsenavbar">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item navbar-item">
-                            <a href="" class="nav-link active text-white">HOME</a>
+                        <li class="nav-item navbar-item active">
+                            <a href="#" class="nav-link text-white"><span>HOME</span></a>
                         </li>
                         <li class="nav-item navbar-item">
-                            <a href="" class="nav-link text-white">MECHANIC</a>
+                            <a href="#" class="nav-link text-white"><span>MECHANIC</span></a>
                         </li>
                         <li class="nav-item navbar-item">
-                            <a href="" class="nav-link text-white">ABOUT</a>
+                            <a href="#" class="nav-link text-white"><span>ABOUT</span></a>
                         </li>
                         <li class="nav-item navbar-item">
-                            <a href="#contact" class="nav-link text-white">CONTACT</a>
+                            <a href="#contact" class="nav-link text-white"><span>CONTACT</span></a>
                         </li>
                         <li class="nav-item navbar-item">
-                            <a href="" class="nav-link text-white">LIVE LOCATION</a>
+                            <a href="#" class="nav-link text-white"><span>LIVE LOCATION</span></a>
                         </li>
                         <li class="nav-item navbar-item">
                             <button class="btn btn-signup" type="button">SIGN UP</button>
@@ -62,43 +62,33 @@
         </nav>
     </header>
     <div class="bgimg">
-        <div class="container">
-        <div class="card form-card float-right text-center" style="width: 25rem;">
-            <div class="card-body card2">
-              <h3 class="card-title titleof-card">Hire a Mechanic</h3>
-              <form >
-                <div class="input-group mb-4 ">
-                  <div class=" form-ip">
-                    <span class="input-group-text text-white glass-effect text-center" id="inputGroup-sizing-default">Location</span>
-                  </div>
-                  <input type="text" class="form-control glass-effect" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Enter the Location">
+        <div class="container d-flex justify-content-center justify-content-lg-end align-items-center h-100">
+            <div class="card form-card text-center glass-effect">
+                <div class="card-body">
+                    <h3 class="card-title">Hire a Mechanic</h3>
+                    <form>
+                        <div class="input-group mb-4 ">
+                            <label class="input-group-text text-white form-ip">Location</label>
+                            <input type="text" class="form-control bg-transparent" placeholder="Enter the Location">
+                        </div>
+                        <div class="input-group mb-4 ">
+                            <label class="input-group-text text-white form-ip">Vehicle Model</label>
+                            <input type="text" class="form-control bg-transparent" placeholder="Enter Vehicle Model">
+                        </div>
+                        <div class="input-group mb-4 ">
+                            <label class="input-group-text text-white form-ip">Vehicle Number</label>
+                            <input type="text" class="form-control bg-transparent" placeholder="Enter Vehicle Number">
+                        </div>
+
+                        <div class="input-group mb-4 ">
+                            <label class="input-group-text text-white form-ip">Issue</label>
+                            <input type="text" class="form-control bg-transparent" placeholder="Enter the issue">
+                        </div>
+                    </form>
+                    <input class="btn btn-large btn-block btn-hire" type="submit" value="HIRE" />
                 </div>
-                <div class="input-group mb-4 ">
-                  <div class="form-ip">
-                    <span class="input-group-text text-white glass-effect" id="inputGroup-sizing-default">Vehicle Model</span>
-                  </div>
-                  <input type="text" class="form-control glass-effect" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Enter Vehicle Model">
-                </div>
-                <div class="input-group mb-4 ">
-                  <div class="form-ip ">
-                    <span class="input-group-text text-white glass-effect" id="inputGroup-sizing-default">Vehicle Number</span>
-                  </div>
-                  <input type="text" class="form-control glass-effect" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Enter Vehicle Number">
-                </div>
-                
-                <div class="input-group mb-4 ">
-                  <div class="form-ip">
-                    <span class="input-group-text text-white glass-effect text-center" id="inputGroup-sizing-default">Issue</span>
-                  </div>
-                  <input type="text" class="form-control glass-effect" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Enter the issue">
-                </div>
-                
-                
-            </form>
-              <button class="btn btn-large btn-block btn-hire" type="button">HIRE</button>
             </div>
-          </div>
-    </div>
+        </div>
     </div>
 
 
@@ -389,7 +379,7 @@
                     </div>
                 </div>
                 <div class="redarea">
-                    <div class="container text-center text-md-left mt-5">
+                    <div class="container text-center text-md-left text-white mt-5">
                         <div class="row mt-3">
                             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                                 <h6 class="text-uppercase font-weight-bold">Helpy MOto Pvt.ltd</h6>
@@ -435,8 +425,14 @@
         </footer>
     </div>
 
-    <div class="position-fixed">
-
+    <div class="position-fixed bottom-0 end-0 p-5">
+        <div class="btn btn-backtop btn-lg rounded-circle shadow-lg">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+                  </svg>
+            </span>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -445,8 +441,14 @@
         $(document).ready(function () {
             /*auto close navbar-collapse when contact nav-item is clicked'*/
             $('.navbar-item a').on('click', function () {
-                    $('.navbar-collapse').collapse('hide');
-            })
+                $('.navbar-collapse').collapse('hide');
+            });
+
+            /*Change active elemtn in navbar on click*/
+            $('.navbar-container .navbar-nav a').on('click', function () {
+                $('.navbar-container .navbar-nav').find('li.active').removeClass('active');
+                $(this).parent('li').addClass('active');
+            });
         })
     </script>
     <!--FAQ Section script-->
