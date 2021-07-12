@@ -21,7 +21,7 @@
     word-wrap:break-word;
     background-clip:border-box;
     border-radius: 10px;
-    border: 4px solid red;
+    border: 4px solid var(--primary-color);
     background-color: var(--secondary-color);
 }
 

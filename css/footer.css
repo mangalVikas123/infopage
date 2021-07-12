@@ -1,33 +1,19 @@
 .social {
-    padding: 5px;
+    padding: 0.31rem !important;
 }
 
 .sharer-btn {
-    color: red !important;
-}
-
-a{
-    color: darkblue;
-}
-
-#borderDemo {
-    border: 5px inset black;
-    background-color: black;
-}
-
-.redarea{
-    background-color: #f10a0a;
-}
-
-.blackarea{
-    background-color: #000000;
+    color: var(--primary-color) !important;
 }
 
 #demotext {
-    color: #FFFFFF;
-    background: black;
-    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
-    color: #FFFFFF;
-    background: black;
-    /* background: #333333; */
+    color:  var(--bs-light) !important;
+    background: var(--secondary-color) !important;
+    text-shadow: var(--bs-light) 0px 0px 5px,var(--bs-light) 0px 0px 10px, var(--bs-light) 0px 0px 15px, var(--primary-color) 0px 0px 20px, var(--primary-color) 0px 0px 30px, var(--primary-color) 0px 0px 40px, var(--primary-color) 0px 0px 50px, var(--primary-color) 0px 0px 75px;
+    color: var(--bs-light) !important;
+    background: var(--secondary-color) !important;
+}
+
+#redarea {
+    border-top: 0.2rem solid var(--primary-color) !important;
 }
