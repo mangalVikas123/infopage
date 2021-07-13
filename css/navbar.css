@@ -16,23 +16,107 @@
     padding: 0 1.5rem 0 1.5rem !important;
 }
 
-.navbar-item > .active,.navbar-item > a:hover {
-    border-bottom: 0.175rem solid var(--primary-color) !important;
+.navbar-item  span {
+    position: relative !important;
+    display: inline-block !important;
 }
 
+.navbar-item.active span::after,.navbar-item span::after {
+    content: '' !important;
+    position: absolute !important;
+    width: 100% !important;
+    height: 0.175rem !important;
+    background-color: var(--primary-color) !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    transition: transform 0.3s ease !important;
+}
+
+.navbar-item:not(.active) span::after {
+    transform: scale(0,1) !important;
+}
+
+.navbar-item span:hover::after{
+    transform: scale(1,1) !important;
+}
 
 .btn-signup {
     background-color: var(--primary-color) !important;
-    color: #ffffff !important;
+    color: var(--bs-light) !important;
 }
 
 .btn-signup:hover{
-    background-color: #DA0037 !important;
+    opacity: 0.75 !important;
 }
 
 .logo {
     width: 100% !important;
     height: auto !important;
+}
+
+.form-card{
+    width: fit-content !important;
+    background: initial !important;
+    border-radius: 1rem !important;
+    margin-top: 3rem !important;
+}
+
+.form-card .card-title{
+    color: var(--primary-color) !important;
+    font-weight: bold !important;
+    margin:2.5rem 0 2.15rem 0 !important;
+}
+
+.form-card  .card-body{ 
+    padding: 0 1.56rem 0 1.56rem !important;
+}
+
+.form-card .form-control {
+    color: var(--bs-light) !important;
+}
+
+.form-card .form-control::placeholder {
+    color: var(--bs-light) !important;
+}
+
+.form-card .form-control::-ms-input-placeholder {
+    color: var(--bs-light) !important;
+}
+
+.form-card .form-control:focus{
+    border-color: var(--primary-color) !important;
+    box-shadow: none !important;
+}
+
+.form-ip{
+    background-color: var(--bs-secondary) !important;
+    justify-content: center !important;
+    width: 40% !important; 
+}
+
+.btn-hire{
+    background-color: var(--primary-color) !important;
+    color: var(--bs-light) !important;
+    margin: 1.6rem 0 2.8rem 0 !important;
+    width: 100% !important;
+}
+
+.btn-hire:focus {
+    opacity: 0.75 !important;
+    box-shadow: none;
+}
+
+.glass-effect{
+    color: var(--bs-light) !important;
+    border: 1px solid var(--bs-light) !important;
+    backdrop-filter: blur(50px) !important;
+    -webkit-backdrop-filter: blur(50px) !important;
+}
+
+#backtop{
+    display: none;
+    color: var(--bs-light) !important;
+    background-color: var(--primary-color) !important;
 }
 
 @media (max-width: 576px){
