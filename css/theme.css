@@ -14,3 +14,13 @@
 .text-primary {
     color: var(--primary-color) !important;
 }
+
+.btn-primary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.btn-primary:focus {
+    opacity: 0.75 !important;
+    box-shadow: none !important;
+}
