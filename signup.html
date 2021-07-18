@@ -59,49 +59,57 @@
         </nav>
     </header>
     <div class="d-flex bgimg justify-content-center align-items-center">
-        <div class="card form-card glass-effect" style="width:400px !important;">
+        <div id="customer-form" class="card form-card glass-effect">
             <div class="card-body">
                 <h3 class="card-title text-center">Helpy Motto</h3>
                 <form id="login">
                     <div class="mb-2">
-                        <input class="form-control text-center bg-transparent" placeholder="Enter the username" />
+                        <input type="text" name="username" class="form-control text-center bg-transparent"
+                            placeholder="username">
                     </div>
-                    <div class="mb-4">
-                        <input class="form-control text-center bg-transparent" placeholder="Enter the password" />
+                    <div class="mb-2">
+                        <input type="password" name="password" class="form-control text-center bg-transparent"
+                            placeholder="password">
                     </div>
-                    <div class="mb-4 text-center">
+                    <div class="mb-2 text-center">
                         <a id="show-signup" class="form-text text-primary fw-bold">Or Signup</a>
                     </div>
-                    <div class="mb-4 text-center">
-                        <input class="btn btn-primary" type="submit" value="Login" />
+                    <div class="mb-2 text-center">
+                        <input class="btn btn-primary" type="submit" name="submit" value="Log In">
                     </div>
                 </form>
                 <form id="signup" class="d-none">
                     <div class="mb-2">
-                        <input class="form-control text-center bg-transparent" placeholder="Enter the first name" />
+                        <input type="text" name="first-name" class="form-control text-center bg-transparent"
+                            placeholder="First name" />
                     </div>
                     <div class="mb-2">
-                        <input class="form-control text-center bg-transparent" placeholder="Enter the last name" />
+                        <input type="text" name="last-name" class="form-control text-center bg-transparent"
+                            placeholder="Last name" />
                     </div>
                     <div class="mb-2">
-                        <input class="form-control text-center bg-transparent" placeholder="Enter the mobile no." />
+                        <input type="number" name="mobile" class="form-control text-center bg-transparent"
+                            placeholder="Mobile no." />
                     </div>
                     <div class="mb-2">
-                        <input class="form-control text-center bg-transparent" placeholder="Enter the email" />
+                        <input type="email" name="email" class="form-control text-center bg-transparent"
+                            placeholder="Email" />
                     </div>
                     <div class="mb-2">
-                        <input class="form-control text-center bg-transparent" placeholder="Enter the password" />
+                        <input type="password" name="password" class="form-control text-center bg-transparent"
+                            placeholder="Password" />
                         <div class="form-text">The password must be atleast 6 characters long</div>
                     </div>
                     <div class="mb-2">
-                        <input class="form-control text-center bg-transparent" placeholder="Enter the password again" />
+                        <input type="password" name="repassword" class="form-control text-center bg-transparent"
+                            placeholder="Password again" />
                     </div>
                     <div class="mb-2 text-center">
-                        <a id="show-login" class="form-text text-primary fw-bold" >Or Already Registered Click to
+                        <a id="show-login" class="form-text text-primary fw-bold">Or Already Registered Click to
                             Login</a>
                     </div>
                     <div class="mb-4 text-center">
-                        <input class="btn btn-primary" type="submit" value="Signup" />
+                        <input class="btn btn-primary" type="submit" name="submit" value="Signup" />
                     </div>
                 </form>
             </div>
@@ -173,7 +181,7 @@
     <!-- JS section-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-          <!--Navbar Section Script-->
+    <!--Navbar Section Script-->
     <script>
         $(document).ready(function () {
             /*auto close navbar-collapse when contact nav-item is clicked'*/
