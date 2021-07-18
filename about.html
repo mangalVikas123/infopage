@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/footer.css">
 </head>
 
@@ -38,10 +39,10 @@
                         <li class="nav-item navbar-item">
                             <a href="index.html" class="nav-link text-white"><span>HOME</span></a>
                         </li>
-                        <li class="nav-item navbar-item active">
+                        <li class="nav-item navbar-item">
                             <a href="mechanic.html" class="nav-link text-white"><span>MECHANIC</span></a>
                         </li>
-                        <li class="nav-item navbar-item">
+                        <li class="nav-item navbar-item active">
                             <a href="about.html" class="nav-link text-white"><span>ABOUT</span></a>
                         </li>
                         <li class="nav-item navbar-item">
@@ -58,80 +59,71 @@
             </div>
         </nav>
     </header>
-    <div class="bgimg d-flex justify-content-center">
-        <div id="mechanic-form" class="card form-card glass-effect ">
-            <div class="card-body">
-                <h3 class="card-title text-center">Helpy Motto Mechanic</h3>
-                <form id="signup">
-                    <div class="row mb-2">
-                        <div class="col">
-                            <input type="text" name="first-name" class="form-control text-center bg-transparent" placeholder="First name" />
-                        </div>
-                        <div class="col">
-                            <input type="text" name="last-name" class="form-control text-center bg-transparent" placeholder="Last name" />
-                        </div>
-                    </div>
-                    <div class="row mb-2">
-                        <div class="col">
-                            <input type="number" name="mobile-no" class="form-control text-center bg-transparent"
-                                placeholder="Mobile/Whatsapp no." />
-                        </div>
-                        <div class="col">
-                            <input type="number" name="alt-mobile-no" class="form-control text-center bg-transparent"
-                                placeholder="Alternative mobile no." />
-                        </div>
-                    </div>
-                    <div class="mb-2">
-                        <input type="text" name="shop-name" class="form-control text-center bg-transparent" placeholder="Shop name" />
-                    </div>
-                    <div class="mb-2">
-                        <input type="text" name="shop-address" class="form-control text-center bg-transparent" placeholder="Shop address" />
-                    </div>
-                    <div class="row mb-2">
-                        <div class="col">
-                            <input type="number" name="pincode" class="form-control text-center bg-transparent" placeholder="Pincode" />
-                        </div>
-                        <div class="col">
-                            <input class="form-control text-center bg-transparent" placeholder="Aadhar No." />
-                        </div>
-                    </div>
-                    <div class="mb-2">
-                        <input type="email" name="email" class="form-control text-center bg-transparent" placeholder="Email" />
-                    </div>
-                    <div class="mb-2">
-                        <input type="password" name="password" class="form-control text-center bg-transparent" placeholder="Password" />
-                    </div>
-                    <div class="row mb-2">
-                        <div class="col">
-                            <textarea name="work-experience" class="form-control text-center bg-transparent"
-                                placeholder="Enter the work experience" rows="2" maxlength="200"/> </textarea>
-                        </div>
-                    </div>
-                    <div class="mb-2 text-center">
-                        <a id="show-login" class="form-text text-primary fw-bold" >Or Already Registered Click to
-                            Login</a>
-                    </div>
-                    <div class="mb-2 text-center">
-                        <input class="btn btn-primary" type="submit" name="submit" value="Submit" />
-                    </div>
-                </form>
-                <form id="login" class="d-none">
-                    <div class="mb-2">
-                        <input type="text" name="username" class="form-control text-center bg-transparent" placeholder="username">
-                    </div>
-                    <div class="mb-2">
-                        <input type="password" name="password" class="form-control text-center bg-transparent"  placeholder="password">
-                    </div>
-                    <div class="mb-2 text-center">
-                        <a id="show-signup" class="form-text text-primary fw-bold">Or Signup</a>
-                    </div>
-                    <div class="mb-2 text-center">
-                        <input class="btn btn-primary" type="submit" name="submit" value="Log In"> 
-                    </div>
-                </form>
+
+    <section>
+
+        <div class="image">
+            <!-- image here -->
+        </div>
+
+        <div class="content">
+            <h2>About Us</h2>
+            <span>
+                <!-- line here -->
+            </span>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis aspernatur voluptas inventore ab
+                voluptates nostrum minus illo laborum harum laudantium earum ut, temporibus fugiat sequi explicabo
+                facilis unde quos corporis!</p>
+
+            <ul class="links">
+                <li><a href="#">work</a></li>
+
+                <div class="vertical-line"></div>
+
+                <li><a href="#">service</a></li>
+
+                <div class="vertical-line"></div>
+
+                <li><a href="#">contact</a></li>
+            </ul>
+
+            <ul class="icons">
+                <li>
+                    <i class="fa fa-twitter"></i>
+                </li>
+                <li>
+                    <i class="fa fa-facebook"></i>
+                </li>
+                <li>
+                    <i class="fa fa-github"></i>
+                </li>
+                <li>
+                    <i class="fa fa-pinterest"></i>
+                </li>
+            </ul>
+            <div class="Newsletter">
+                <h3>
+                    Subscribe to our Newsletter
+                </h3>
+                <div class="input-group p-3">
+                    <input type="email" class="form-control" placeholder="Enter your email">
+                    <span class="input-group-btn">
+                        <button class="btn btn-theme newsletter-btn" type="submit">Subscribe</button>
+                    </span>
+                </div>
             </div>
         </div>
-    </div>
+
+
+    </section>
+    <!-- <section class="home-newsletter p-2 pt-md-2 pb-md-2"> -->
+    <!-- <div class="home-newsletter p-2 pt-md-2 pb-md-2">
+            <div class="row"> -->
+
+    <!-- </div>
+        </div> -->
+
     <!--Footer-->
     <footer class="container-fluid">
         <div class="container">
@@ -140,11 +132,15 @@
                     <h5 class="text-primary text-center">Get connected with us on social networks!</h>
                 </div>
                 <div class="social text-center text-md-end flex-fill">
-                    <a href="https://www.facebook.com/profile.php?id=100069828099402" id="share-fb" class="sharer-btn"><i class="fa fa-3x fa-facebook-square"></i></a>
-                    <a href="https://twitter.com/HelpyMoto" id="share-tw" class="sharer-btn"><i class="fa fa-3x fa-twitter-square"></i></a>
-                    <a href="https://www.linkedin.com/in/helpy-moto-37b898215/" id="share-li" class="sharer-btn"><i class="fa fa-3x fa-linkedin-square"></i></a>
-                    <a href="https://www.instagram.com/helpy_moto/" id="share-ig" class="sharer-btn"><i class="fa fa-3x fa-instagram"></i></a>
-                   
+                    <a href="https://www.facebook.com/profile.php?id=100069828099402" id="share-fb"
+                        class="sharer-btn"><i class="fa fa-3x fa-facebook-square"></i></a>
+                    <a href="https://twitter.com/HelpyMoto" id="share-tw" class="sharer-btn"><i
+                            class="fa fa-3x fa-twitter-square"></i></a>
+                    <a href="https://www.linkedin.com/in/helpy-moto-37b898215/" id="share-li" class="sharer-btn"><i
+                            class="fa fa-3x fa-linkedin-square"></i></a>
+                    <a href="https://www.instagram.com/helpy_moto/" id="share-ig" class="sharer-btn"><i
+                            class="fa fa-3x fa-instagram"></i></a>
+
                 </div>
             </div>
         </div>
@@ -154,8 +150,9 @@
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                         <h6 class="text-uppercase fw-bold">Helpy Moto Pvt.ltd</h6>
                         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                        <p>Our venture is to restore motors all over  India in  an efficient manner without getting their car to the
-                             restore keep and saving their precious time
+                        <p>Our venture is to restore motors all over India in an efficient manner without getting their
+                            car to the
+                            restore keep and saving their precious time
                         </p>
                     </div>
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -211,16 +208,7 @@
                 $(this).parent('li').addClass('active');
             });
 
-            $('#show-signup').on('click', () => {
-                $('#login').addClass('d-none');
-                $('#signup').removeClass('d-none');
-            })
-
-            $('#show-login').on('click', () => {
-                $('#login').removeClass('d-none');
-                $('#signup').addClass('d-none')
-            })
-
+            
         })
     </script>
 

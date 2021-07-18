@@ -14,6 +14,7 @@
 }
 
 .wsohm-card{
+    height: 100%;
     position:relative;
     display:flex;
     flex-direction:column;
@@ -31,7 +32,6 @@
     border-radius: 15px;
     margin: 32px 10px;
     width: 80%;
-    height: 80%;
 }
 
 .wsohm-card-body{
