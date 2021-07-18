@@ -113,12 +113,19 @@
     -webkit-backdrop-filter: blur(50px) !important;
 }
 
-#backtop{
-    display: none;
-    color: var(--bs-light) !important;
-    background-color: var(--primary-color) !important;
+#mechanic-form {
+    width: fit-content !important;
+    height: fit-content !important;
 }
 
+#mechanic-form textarea {
+    resize: none;
+}
+
+#mechanic-form .card-title {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
 @media (max-width: 576px){
 
    .brand {

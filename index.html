@@ -39,10 +39,10 @@
                 <div class="collapse navbar-collapse text-center " id="collapsenavbar">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item navbar-item active">
-                            <a href="#" class="nav-link text-white"><span>HOME</span></a>
+                            <a href="index.html" class="nav-link text-white"><span>HOME</span></a>
                         </li>
                         <li class="nav-item navbar-item">
-                            <a href="#" class="nav-link text-white"><span>MECHANIC</span></a>
+                            <a href="mechanic.html" class="nav-link text-white"><span>MECHANIC</span></a>
                         </li>
                         <li class="nav-item navbar-item">
                             <a href="#" class="nav-link text-white"><span>ABOUT</span></a>
@@ -54,7 +54,7 @@
                             <a href="#" class="nav-link text-white"><span>LIVE LOCATION</span></a>
                         </li>
                         <li class="nav-item navbar-item">
-                            <button class="btn btn-signup" type="button">SIGN UP</button>
+                            <a class="btn btn-signup" href="signup.html">LOGIN/SIGN UP</a>
                         </li>
                     </ul>
                 </div>
@@ -69,20 +69,19 @@
                     <form>
                         <div class="input-group mb-4 ">
                             <label class="input-group-text text-white form-ip">Location</label>
-                            <input type="text" class="form-control bg-transparent" placeholder="Enter the Location">
+                            <input type="text" name="location" class="form-control bg-transparent" placeholder="Enter the Location">
                         </div>
                         <div class="input-group mb-4 ">
                             <label class="input-group-text text-white form-ip">Vehicle Model</label>
-                            <input type="text" class="form-control bg-transparent" placeholder="Enter Vehicle Model">
+                            <input type="text" name="vehicle-model" class="form-control bg-transparent" placeholder="Enter Vehicle Model">
                         </div>
                         <div class="input-group mb-4 ">
                             <label class="input-group-text text-white form-ip">Vehicle Number</label>
-                            <input type="text" class="form-control bg-transparent" placeholder="Enter Vehicle Number">
+                            <input type="text" name="vehicle-number"class="form-control bg-transparent" placeholder="Enter Vehicle Number">
                         </div>
-
                         <div class="input-group mb-4 ">
                             <label class="input-group-text text-white form-ip">Issue</label>
-                            <input type="text" class="form-control bg-transparent" placeholder="Enter the issue">
+                            <input type="text" name="issue" class="form-control bg-transparent" placeholder="Enter the issue">
                         </div>
                     </form>
                     <input class="btn btn-large btn-block btn-hire" type="submit" value="HIRE" />
@@ -421,14 +420,6 @@
             $('.navbar-container .navbar-nav a').on('click', function () {
                 $('.navbar-container .navbar-nav').find('li.active').removeClass('active');
                 $(this).parent('li').addClass('active');
-            });
-
-            $(window).scroll(
-
-            )
-
-            $('#backtop').on('click', function () {
-                $("html, body").animate({ scrollTop: 0 }, 200);
             });
         })
     </script>
