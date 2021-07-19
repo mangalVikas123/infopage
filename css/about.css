@@ -1,44 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
 
-body{
-    /* font-family: 'Playfair Display', serif; */
-    display: grid;
-    background-color :black;
-    align-content: center;
-    min-height: 100vh;
-}
-section{
-    display: grid;
-    grid-template-columns: 0.72fr 1fr;
-    min-height: 90vh;
-    width: 92vw;
-    margin: 150px auto 50px auto;
-    
-}
 .image{
-    background: url("../images/about/Shantanu\ pic.jpg") center/cover no-repeat;
-    /* background: red; */
+    background: url("../images/about/Shantanu\ pic.jpg");
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .content{
-    background: red;
+    background: var(--primary-color) !important;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
+
 .content h2{
     text-transform: uppercase;
     font-size: 36px;
     letter-spacing: 6px;
     opacity: 0.9;
 }
+
 .content span{
     height: 0.5px;
     width: 80px;
-    background: black;
+    background: var(--primary-color) !;
     color: black;
     margin: 30px 0;
 }
+
 .content p{
     padding-bottom: 15px;
     font-weight: 300;
@@ -48,9 +39,11 @@ section{
     margin: 0 auto;
     line-height: 1.7;
 }
+
 .links{
     margin: 15px 0;
 }
+
 .links li{
     border: 0.5px solid black;
     list-style: none;
@@ -59,43 +52,49 @@ section{
     width: 160px;
     text-align: center;
 }
+
 .links li a{
     text-transform: uppercase;
     color: black;
     text-decoration: none;
 }
+
 .links li:hover{
     border-color: black;
 }
+
 .links li:hover a{
     color :blue;
 }
+
 .vertical-line{
     height: 30px;
     width: 0.5px;
     background:black;
     margin: 0 auto;
 }
+
 .icons{
     display: flex;
     padding: 15px 0;
 }
+
 .icons li{
     display: block;
     padding: 5px;
     margin: 5px;
 }
+
 .icons li i{
     font-size: 26px;
     opacity: 0.8;
 }
+
 .icons li i:hover{
     color: blue;
 }
 
-
 /*****************/
-
 @media(max-width: 992px){
     section{
         grid-template-columns: 1fr;
@@ -130,36 +129,26 @@ section{
         font-size: 15px;
     }
 }
-/* .home-newsletter{
-  background-color: red;
-  color: black;
-}
-.home-newsletter .form-control {
-	height: 50px;
-	border-color: black;
-	border-radius: 20px 0 0 20px;
-} */
- .newsletter-btn {
+
+.newsletter-btn {
 	min-height: 50px;
 	border-radius: 0 20px 20px 0;
 	background:black;
 	color:red;
 } 
-.Newsletter{
+
+.newsletter{
     background-color: red;
     color: black;
 }
-.form-control{
+
+.newsletter .form-control{
     width: 500px;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid black;
 }
-.input-group{
+
+.newsletter .input-group{
     height: 50px;
 	border-color: black;
-	border-radius: 20px 0 0 20px;
-}
-.p-3{
-    /* min-height: 50px; */
-	border-radius: 0 20px 20px 0;
-	background:black;
-	color:red;
 }
