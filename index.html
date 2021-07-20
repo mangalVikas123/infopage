@@ -316,7 +316,7 @@
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#other-3" aria-expanded="false">
-                                    what is the cost of car servicing? 
+                                    What is the cost of car servicing? 
                                 </button>
                             </h2>
                             <div id="other-3" class="accordion-collapse collapse" data-bs-parent="#accordion-other">
@@ -422,7 +422,7 @@
             for (let i = 0; i < l; i++) {
                 let accordion_item = {};
                 accordion_item["id"] = "#" + $(accordion_items[i]).find('.accordion-collapse').attr('id');
-                accordion_item["heading"] = $(accordion_items[i]).find('.accordion-button').text().trim().toLowerCase();
+                accordion_item["heading"] = $(accordion_items[i]).find('.accordion-button').text().trim();
                 accordion_item["body"] = $(accordion_items[i]).find('.accordion-body').text().replace(/\s+/g, ' ').trim().toLowerCase();
                 help_data.push(accordion_item);
             }
