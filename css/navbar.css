@@ -130,6 +130,11 @@
     width : 25rem !important;
 }
 
+#customer-form,#mechanic-form {
+    cursor: pointer !important;
+}
+
+
 @media (max-width: 576px){
 
    .brand {
