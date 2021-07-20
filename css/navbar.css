@@ -114,8 +114,6 @@
 }
 
 #mechanic-form {
-    margin-top: 10rem !important;
-    width: fit-content !important;
     height: fit-content !important;
 }
 
@@ -129,7 +127,7 @@
 }
 
 #customer-form {
-    width : 20rem !important;
+    width : 25rem !important;
 }
 
 @media (max-width: 576px){
@@ -138,10 +136,7 @@
         flex-basis: 60% !important;
     }
 
-    #mechanic-form {
-        margin-top: 6rem !important;
-    }
-
+   
     #customer-form {
         margin-left: 0.5rem !important;
         margin-right: 0.5rem !important;

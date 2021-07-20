@@ -24,8 +24,8 @@
 
 <body class="bg-secondary">
     <!-- Navbar -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-secondary">
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
             <div class="container-fluid navbar-container">
                 <a class="navbar-brand brand" href="#">
                     <img src="images/navbar/logo_hm.png" alt="helpy motto brand image"
@@ -60,69 +60,56 @@
         </nav>
     </header>
 
-    <section>
-
-        <div class="image">
-            <!-- image here -->
-        </div>
-
-        <div class="content">
-            <h2>About Us</h2>
-            <span>
-                <!-- line here -->
-            </span>
-
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis aspernatur voluptas inventore ab
-                voluptates nostrum minus illo laborum harum laudantium earum ut, temporibus fugiat sequi explicabo
-                facilis unde quos corporis!</p>
-
-            <ul class="links">
-                <li><a href="#">work</a></li>
-
-                <div class="vertical-line"></div>
-
-                <li><a href="#">service</a></li>
-
-                <div class="vertical-line"></div>
-
-                <li><a href="#">contact</a></li>
-            </ul>
-
-            <ul class="icons">
-                <li>
-                    <i class="fa fa-twitter"></i>
-                </li>
-                <li>
-                    <i class="fa fa-facebook"></i>
-                </li>
-                <li>
-                    <i class="fa fa-github"></i>
-                </li>
-                <li>
-                    <i class="fa fa-pinterest"></i>
-                </li>
-            </ul>
-            <div class="Newsletter">
-                <h3>
-                    Subscribe to our Newsletter
-                </h3>
-                <div class="input-group p-3">
-                    <input type="email" class="form-control" placeholder="Enter your email">
-                    <span class="input-group-btn">
-                        <button class="btn btn-theme newsletter-btn" type="submit">Subscribe</button>
-                    </span>
-                </div>
+    <div class="container-fluid p-lg-5 mx-0">
+        <div class="row">
+            <div class="col-12 col-lg-6 image vh-100">
+                <!-- image here -->
+            </div>
+            <div class="col-12 col-lg-6 p-0 content vh-lg-100">
+                <h2>About Us</h2>
+                <span>
+                    <!--Line Here-->
+                </span>
+                <p>Helpy Moto is a serviced primarily based totally enterprise based via way of means of
+                    Shantanu
+                    Bunker
+                    (CEO at Helpy Moto , an IIT Delhi scholar and an entrepreneur attitude that needs something to
+                    create innovative).
+                    <br>We offer customer support at hand. We offer carrier to individuals who are caught within side
+                    the
+                    center of the avenue and some place in India. Our organisation facilitates restore all styles of
+                    automobiles everywhere in India at any time. We will offer them a mechanic as speedy as feasible
+                    to
+                    their doorstep or everywhere they want. All they must do that they've to come to our internet
+                    site
+                    or app and lease a mechanic. All the offerings can be on their fingertips only.</p>
+                <ul class="links">
+                    <li><a href="#">work</a></li>
+                    <div class="vertical-line"></div>
+                    <li><a href="#">service</a></li>
+                    <div class="vertical-line"></div>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+                <ul class="icons">
+                    <li><i class="fa fa-twitter"></i></li>
+                    <li><i class="fa fa-facebook"></i></li>
+                    <li><i class="fa fa-github"></i></li>
+                    <li><i class="fa fa-pinterest"></i></li>
+                </ul>
             </div>
         </div>
-
-
-    </section>
-    <!-- <section class="home-newsletter p-2 pt-md-2 pb-md-2"> -->
-    <!-- <div class="home-newsletter p-2 pt-md-2 pb-md-2">
-            <div class="row"> -->
-
-    <!-- </div>
-        </div> -->
+    </div>
+    <div class="container-fluid px-lg-5 mx-0">
+        <div class="row newsletter p-3">
+            <h3 class="text-center">
+                Subscribe to our Newsletter
+            </h3>
+            <div class="input-group">
+                <input type="email" class="form-control text-center" placeholder="Enter your email">
+                <button class="btn btn-theme newsletter-btn" type="submit">Subscribe</button>
+            </div>
+        </div>
+    </div>
 
     <!--Footer-->
     <footer class="container-fluid">
@@ -140,7 +127,8 @@
                             class="fa fa-3x fa-linkedin-square"></i></a>
                     <a href="https://www.instagram.com/helpy_moto/" id="share-ig" class="sharer-btn"><i
                             class="fa fa-3x fa-instagram"></i></a>
-                    <a href="mailto:contact@helpymoto.com"  id="share-ig" class="sharer-btn"><i class="fa fa-3x fa-envelope-square"></i></a>
+                    <a href="mailto:contact@helpymoto.com" id="share-ig" class="sharer-btn"><i
+                            class="fa fa-3x fa-envelope-square"></i></a>
                 </div>
             </div>
         </div>
@@ -208,7 +196,7 @@
                 $(this).parent('li').addClass('active');
             });
 
-            
+
         })
     </script>
 
